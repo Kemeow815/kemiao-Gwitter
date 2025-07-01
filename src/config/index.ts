@@ -2,20 +2,20 @@ const isDev = process.env.NODE_ENV === 'development';
 
 let config = {
   request: {
-    token: ['9c48ed2297d7d9bf9447', '6de723dbf1a6e4adeacd'],
-    clientID: isDev ? '56af6ab05592f0a2d399' : '694df1779e48d5a450d3',
+    token: ['ghp_qYs8QXhacMQSWIMZ6nw', '0bBt0RIrBXP0Ke0o9'],
+    clientID: isDev ? 'Ov23liMe2hBoAJucaorq' : 'Ov23liMe2hBoAJucaorq',
     clientSecret: isDev
-      ? '5d7e71a1b6130001e84956420ca5b88bc45b7d3c'
-      : '23420dd29f671adc5107a5565ed47f655f8e1260',
-    pageSize: 6,
+      ? '1161138af6a881d3b6ac45b9767d243fb542bab3'
+      : '1161138af6a881d3b6ac45b9767d243fb542bab3',
+    pageSize: 10,
     autoProxy:
       'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
-    owner: 'SimonAKing',
-    repo: 'weibo',
+    owner: 'Kemeow815',
+    repo: 'kemiao-pyq',
   },
 
   app: {
-    onlyShowOwner: false,
+    onlyShowOwner: true,
     enableRepoSwitcher: true,
     enableAbout: false,
     enableEgg: false,
