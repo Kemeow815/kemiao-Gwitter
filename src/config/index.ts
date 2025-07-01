@@ -2,7 +2,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 let config = {
   request: {
-    token: ['qYs8QXhacMQSWIMZ6nw', '0bBt0RIrBXP0Ke0o9'],
+    token: ['ghp_qYs8QXhacMQSWIMZ6nw', '0bBt0RIrBXP0Ke0o9'],
     clientID: isDev ? 'Ov23liMe2hBoAJucaorq' : 'Ov23liMe2hBoAJucaorq',
     clientSecret: isDev
       ? '1161138af6a881d3b6ac45b9767d243fb542bab3'
