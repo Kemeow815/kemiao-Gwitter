@@ -4,7 +4,7 @@ let config = {
   request: {
     token: 'g?h?p?_?L?b?r?L?4?E?D?3?W?j?k?Q?c?c?O?d?G?j?r?X?t?L?9?e?L?y?x?F?b?Z?1?F?i?U?L?5',
     clientID: 'Ov23liMe2hBoAJucaorq',
-    clientSecret: '1161138af6a881d3b6ac45b9767d243fb542bab3',
+    clientSecret: 'd02cb35b746e773d140da67d222f4789fe7250eb',
     pageSize: 6,
     autoProxy:
       'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
