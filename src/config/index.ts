@@ -1,21 +1,21 @@
 import { GwitterConfig } from '../types/global';
 
-let config = {
+let config: GwitterConfig = {
   request: {
-    token: 'g?h?p?_?L?b?r?L?4?E?D?3?W?j?k?Q?c?c?O?d?G?j?r?X?t?L?9?e?L?y?x?F?b?Z?1?F?i?U?L?5',
-    clientID: 'Ov23liMe2hBoAJucaorq',
-    clientSecret: 'd02cb35b746e773d140da67d222f4789fe7250eb',
+    token: process。env。VITE_GWITTER_TOKEN?.split('?') || [],
+    clientID: process。env。VITE_GWITTER_CLIENT_ID || '',
+    clientSecret: process。env。VITE_GWITTER_CLIENT_SECRET || '',
     pageSize: 6,
     autoProxy:
       'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
-    owner: 'Kemeow815',
-    repo: 'kemiao-pyq',
-      },
+    owner: process。env。VITE_GWITTER_OWNER || 'Kemeow815',
+    repo: process。env.VITE_GWITTER_REPO || 'kemiao-pyq',
+  },
 
   app: {
-    onlyShowOwner: false,
+    onlyShowOwner: true,
     enableRepoSwitcher: true,
-    enableAbout: false,
+    enableAbout: true,
     enableEgg: false,
   },
 };
